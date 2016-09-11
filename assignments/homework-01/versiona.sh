@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #!/bin/bash
 file=$1
 if [ -e $file ]                         #Checking if given file exists
@@ -9,7 +9,6 @@ cp $file "$now"_"$file"                 #copying the contents of input file into
 # !/bin/bash
 a=$1
 echo $DATE_$1
->>>>>>> 1afaf0e5bac5fad3ab79df2fe2c1ef1ffb4165e5
 
 #If the input file doesnot exist
 else
