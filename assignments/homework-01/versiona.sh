@@ -4,15 +4,8 @@ file=$1
 if [ -e $file ]                         #Checking if given file exists
 then
 now=$(date +"%Y-%m-%d")                 #Taking present date into a variable using command line substitution
-cp $file "$now"_"$file"                 #copying the contents of input file into a new file
-<<<<<<< HEAD
-# !/bin/bash
-=======
+cp $file "$now"_"$file"                 #copying the contents of input file into a new fil
 
-
-# !/bin/bash
-
->>>>>>> e1b91ba493fcd5e2c0ff29ba72db856e3df15abc
 a=$1
 echo $DATE_$1
 
