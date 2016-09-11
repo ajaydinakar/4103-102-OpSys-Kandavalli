@@ -1,6 +1,4 @@
 
-
-
 #!/bin/bash
 file=$1
 if [ -e $file ]                         #Checking if given file exists
