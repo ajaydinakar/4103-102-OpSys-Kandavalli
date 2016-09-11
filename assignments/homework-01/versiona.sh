@@ -1,6 +1,5 @@
-<<<<<<< HEAD
-#! /bin/bash
-=======
+
+
 
 #!/bin/bash
 file=$1
@@ -22,4 +21,3 @@ touch $file
 now=$(date +"%Y-%m-%d")
 cp $file "$now"_"$file"
 fi
->>>>>>> 3f07430b06ade7b869697482e188f1acb31599bc
