@@ -9,10 +9,11 @@ echo $DATE_$1
 
 #If the input file doesnot exist
 else
-echo "file doesnot exist created a dated copy"
+echo "file doesnot exist created a file and  dated copy"
 
 
 #Creating a new empty file and creating a new dated copy file
 dt=$(date +"%Y-%m-%d")
-touch "$dt"_"$file"
+touch "$file"
+cp $file "$dt"_"$file"
 fi
