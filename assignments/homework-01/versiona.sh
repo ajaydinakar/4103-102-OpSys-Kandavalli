@@ -13,5 +13,4 @@ echo "file doesnot exist created a file and it's dated copy"
 dt=$(date +"%Y-%m-%d")
 touch "$file"
 cp $file "$dt"_"$file"
-echo "dated copy of the file created"
 fi
