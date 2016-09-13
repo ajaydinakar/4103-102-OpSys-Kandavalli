@@ -1,3 +1,15 @@
-# !/bin/bash
- let sum=$1+$2+$3+$4+$5+$6+$7+$8+$9
-echo $1"+"$2"+"$3"+"$4"+"$6"+"$7"+"$8"+"$9= $sum
+
+#! /bin/bash
+ sum=0    
+for i in $*
+do 
+ sum=`expr $sum + $i`
+done
+for i in $*
+do 
+ echo -n $i"+"
+done
+echo -n "="
+echo $sum
+
+
