@@ -1,6 +1,6 @@
 from imgurpython import ImgurClient
 import os
-from queue import Queue
+from Queue import Queue
 from threading import Thread
 from time import time
 import urllib3
