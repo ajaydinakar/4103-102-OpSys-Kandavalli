@@ -1,7 +1,9 @@
 #### Multi-Tasking: 
 performing multiple tasks (processes) over a certain period of time by executing them concurrently.
+Eg:In a computer if there one or more cpu's and more tasks than the cpu's then the os schedules the the tasks based on time with context switching so all the tasks are executed in a time based manner switching between them in time intervals giving an illusion that ther are executing parallelly.
 #### Multi-Programming:
 The management of multiple processes within a uniprocessor(single cpu) system.
+Eg:In a single cpu computer if the machine has the capability of causing an interrupt after a specified time interval, then the operating system will execute each program for a given length of time, regain control, and then execute another program for a given length of time
 #### Multi-Processing:
 The management of multiple processes within a multiprocessor(multiple cpu’s)system.
 #### Multi-Threading:
