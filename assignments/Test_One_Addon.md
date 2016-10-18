@@ -52,7 +52,7 @@ categories:
 The user mode has restrictions on the instructions that can be executed and the memory areas that can be accessed. This is to protect the operating system from damage or alteration. In kernel mode, the operating system does not have these restrictions, so that it can perform its tasks.
 
 #### What is the difference between an interrupt and a trap?
-Interrupt occurs is due to some sort of event that is external to and independent of the currently running process, such as the completion of an I/O operation,where as a trap relates to an error or exception condition generated within the currently running process, such as an illegal file access attempt.
+Interrupt occurs  due to some sort of event that is external to and independent of the currently running process, such as the completion of an I/O operation,where as a trap relates to an error or exception condition generated within the currently running process, such as an illegal file access attempt.
 
 #### Give three examples of an interrupt.
 Clock Interrupt
