@@ -44,9 +44,9 @@ process, or the OS, for the purpose of preventing its execution.
 #### List three general categories of information in a process control block
 three general
 categories:
-..1 Process identification
-..2 Processor state information
-..3Process control information
+ 1. Process identification
+ 2. Processor state information
+ 3.Process control information
 
 #### Why are two modes (user and kernel) needed
 The user mode has restrictions on the instructions that can be executed and the memory areas that can be accessed. This is to protect the operating system from damage or alteration. In kernel mode, the operating system does not have these restrictions, so that it can perform its tasks.
@@ -55,9 +55,9 @@ The user mode has restrictions on the instructions that can be executed and the 
 Interrupt occurs  due to some sort of event that is external to and independent of the currently running process, such as the completion of an I/O operation,where as a trap relates to an error or exception condition generated within the currently running process, such as an illegal file access attempt.
 
 #### Give three examples of an interrupt.
-Clock Interrupt
-I/O Interrupt
-Memory Fault
+ 1.Clock Interrupt
+ 2.I/O Interrupt
+ 3.Memory Fault
 
 #### What is the difference between a mode switch and a process switch?
 A mode switch may occur without changing the state of the process that is currently in the Running state. A process switch involves taking the currently executing process out of the Running state in favor of another process. The process switch involves saving more state information
