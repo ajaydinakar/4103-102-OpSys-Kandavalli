@@ -15,13 +15,13 @@ An instruction trace for a program is the sequence of instructions that execute 
 
 #### What common events lead to the creation of a process?
 common events lead to the creation of a process:
- 1.New batch job The OS is provided with a batch job control stream, usually on tape
+ 1. New batch job The OS is provided with a batch job control stream, usually on tape
 or disk. When the OS is prepared to take on new work, it will read the
 next sequence of job control commands.
- 2.Interactive log-on A user at a terminal logs on to the system.
- 3.Created by OS to provide a service The OS can create a process to perform a function on behalf of a user program, without the user having to wait (e.g., a process to control
+ 2. Interactive log-on A user at a terminal logs on to the system.
+ 3. Created by OS to provide a service The OS can create a process to perform a function on behalf of a user program, without the user having to wait (e.g., a process to control
 printing).
- 4.Spawned by existing process For purposes of modularity or to exploit parallelism, a user program can dictate the creation of a number of processes.
+ 4. Spawned by existing process For purposes of modularity or to exploit parallelism, a user program can dictate the creation of a number of processes.
 
 #### What does it mean to preempt a process?
 Process preemption occurs when an executing process is interrupted by the processor so that another process can be executed.
@@ -44,11 +44,10 @@ process, or the OS, for the purpose of preventing its execution.
  4. The process may not be removed from this state until the agent explicitly orders the removal.
 
 #### List three general categories of information in a process control block
-three general
-categories:
+three general categories:
  1. Process identification
  2. Processor state information
- 3.Process control information
+ 3. Process control information
 
 #### Why are two modes (user and kernel) needed
 The user mode has restrictions on the instructions that can be executed and the memory areas that can be accessed. This is to protect the operating system from damage or alteration. In kernel mode, the operating system does not have these restrictions, so that it can perform its tasks.
@@ -57,9 +56,9 @@ The user mode has restrictions on the instructions that can be executed and the 
 Interrupt occurs  due to some sort of event that is external to and independent of the currently running process, such as the completion of an I/O operation,where as a trap relates to an error or exception condition generated within the currently running process, such as an illegal file access attempt.
 
 #### Give three examples of an interrupt.
- 1.Clock Interrupt
- 2.I/O Interrupt
- 3.Memory Fault
+ 1. Clock Interrupt
+ 2. I/O Interrupt
+ 3. Memory Fault
 
 #### What is the difference between a mode switch and a process switch?
 A mode switch may occur without changing the state of the process that is currently in the Running state. A process switch involves taking the currently executing process out of the Running state in favor of another process. The process switch involves saving more state information
