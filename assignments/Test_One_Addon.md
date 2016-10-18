@@ -1,14 +1,16 @@
 #### 1. Multi-Tasking: 
 performing multiple tasks (processes) over a certain period of time by executing them concurrently.
-Eg:In a computer if there one or more cpu's and more tasks than the cpu's then the os schedules the the tasks based on time with context switching so all the tasks are executed in a time based manner switching between them in time intervals giving an illusion that ther are executing parallelly.
+**Eg:** In a computer if there one or more cpu's and more tasks than the cpu's then the os schedules the the tasks based on time with context switching so all the tasks are executed in a time based manner switching between them in time intervals giving an illusion that ther are executing parallelly.
 #### 2. Multi-Programming:
 The management of multiple processes within a uniprocessor(single cpu) system.
-Eg:In a single cpu computer if the machine has the capability of causing an interrupt after a specified time interval, then the operating system will execute each program for a given length of time, regain control, and then execute another program for a given length of time
+ **Eg:** In a single cpu computer if the machine has the capability of causing an interrupt after a specified time interval, then the operating system will execute each program for a given length of time, regain control, and then execute another program for a given length of time
 #### 3. Multi-Processing:
 The management of multiple processes within a multiprocessor(multiple cpu’s)system.
+**Eg:** Four processes executing on a 4 cpu system at the same time.
 #### 4. Multi-Threading:
 It is a technique in which a process, executing an application, is
 divided into threads that can run concurrently.
+**Eg:**All the tasks in a process executing on a single processor concurrently
 
 #### 5. What is an instruction trace?
 An instruction trace for a program is the sequence of instructions that execute for that process.
