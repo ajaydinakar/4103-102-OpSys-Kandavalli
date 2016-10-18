@@ -1,7 +1,11 @@
-Multi-Tasking: performing multiple tasks (processes) over a certain period of time by executing them concurrently.
-Multi-Programming:The management of multiple processes within a uniprocessor(single cpu) system.
-Multi-Processing: The management of multiple processes within a multiprocessor(multiple cpu’s)system.
-Multi-Threading:It is a technique in which a process, executing an application, is
+### Multi-Tasking: 
+performing multiple tasks (processes) over a certain period of time by executing them concurrently.
+### Multi-Programming:
+The management of multiple processes within a uniprocessor(single cpu) system.
+### Multi-Processing:
+The management of multiple processes within a multiprocessor(multiple cpu’s)system.
+### Multi-Threading:
+It is a technique in which a process, executing an application, is
 divided into threads that can run concurrently.
 
 
