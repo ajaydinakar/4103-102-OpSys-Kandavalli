@@ -3,7 +3,7 @@
 **Eg:** In a computer if there one or more cpu's and more tasks than the cpu's then the os schedules the the tasks based on time with context switching so all the tasks are executed in a time based manner switching between them in time intervals giving an illusion that ther are executing parallelly.
 #### 2. Multi-Programming:
 **Ans:** Multi Programming the management of multiple processes within a uniprocessor(single cpu) system.
- **Eg:** In a single cpu computer if the machine has the capability of causing an interrupt after a specified time interval, then the operating system will execute each program for a given length of time, regain control, and then execute another program for a given length of time
+ **Eg:** In a single cpu if a process is waiting for a I\O resourse,the the os gives cpu to another process for executing so that maximum usage of cpu time is achieved.
 #### 3. Multi-Processing:
 **Ans:** Multi Processing the management of multiple processes within a multiprocessor(multiple cpu’s)system.
 **Eg:** Four processes executing on a 4 cpu system at the same time.
