@@ -44,9 +44,9 @@ process, or the OS, for the purpose of preventing its execution.
 #### List three general categories of information in a process control block
 three general
 categories:
-• Process identification
-• Processor state information
-• Process control information
+..1 Process identification
+..2 Processor state information
+..3Process control information
 
 #### Why are two modes (user and kernel) needed
 The user mode has restrictions on the instructions that can be executed and the memory areas that can be accessed. This is to protect the operating system from damage or alteration. In kernel mode, the operating system does not have these restrictions, so that it can perform its tasks.
