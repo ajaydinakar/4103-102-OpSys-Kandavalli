@@ -15,13 +15,13 @@ An instruction trace for a program is the sequence of instructions that execute 
 
 #### What common events lead to the creation of a process?
 common events lead to the creation of a process:
-1.New batch job The OS is provided with a batch job control stream, usually on tape
+ 1.New batch job The OS is provided with a batch job control stream, usually on tape
 or disk. When the OS is prepared to take on new work, it will read the
 next sequence of job control commands.
-2.Interactive log-on A user at a terminal logs on to the system.
-3.Created by OS to provide a service The OS can create a process to perform a function on behalf of a user program, without the user having to wait (e.g., a process to control
+ 2.Interactive log-on A user at a terminal logs on to the system.
+ 3.Created by OS to provide a service The OS can create a process to perform a function on behalf of a user program, without the user having to wait (e.g., a process to control
 printing).
-4.Spawned by existing process For purposes of modularity or to exploit parallelism, a user program can dictate the creation of a number of processes.
+ 4.Spawned by existing process For purposes of modularity or to exploit parallelism, a user program can dictate the creation of a number of processes.
 
 #### What does it mean to preempt a process?
 Process preemption occurs when an executing process is interrupted by the processor so that another process can be executed.
@@ -35,13 +35,13 @@ There are two independent concepts: whether a process is waiting on an event (bl
 
 
 #### List four characteristics of a suspended process.
-1. The process is not immediately available for execution.1
-2. The process may or may not be waiting on an event. If it is, this blocked condition
-is independent of the suspend condition, and occurrence of the blocking 2
+ 1. The process is not immediately available for execution.
+ 2. The process may or may not be waiting on an event. If it is, this blocked condition
+is independent of the suspend condition, and occurrence of the blocking 
 event does not enable the process to be executed immediately.
-3. The process was placed in a suspended state by an agent: either itself, a parent
+ 3. The process was placed in a suspended state by an agent: either itself, a parent
 process, or the OS, for the purpose of preventing its execution.
-4. The process may not be removed from this state until the agent explicitly orders the removal.
+ 4. The process may not be removed from this state until the agent explicitly orders the removal.
 
 #### List three general categories of information in a process control block
 three general
