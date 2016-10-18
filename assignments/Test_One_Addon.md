@@ -35,9 +35,9 @@ There are two independent concepts: whether a process is waiting on an event (bl
 
 
 #### List four characteristics of a suspended process.
-1. The process is not immediately available for execution.
+1. The process is not immediately available for execution.1
 2. The process may or may not be waiting on an event. If it is, this blocked condition
-is independent of the suspend condition, and occurrence of the blocking
+is independent of the suspend condition, and occurrence of the blocking 2
 event does not enable the process to be executed immediately.
 3. The process was placed in a suspended state by an agent: either itself, a parent
 process, or the OS, for the purpose of preventing its execution.
