@@ -108,7 +108,7 @@ class CursesWindow(object):
 # There'll be the same number of forks.
 numPhilosophers = 4
 
-# Lists to hold the philosophers and the forks.
+# 1Lists to hold the philosophers and the forks.
 # Philosophers are threads while forks are locks.
 philosophers = []
 forks = []
