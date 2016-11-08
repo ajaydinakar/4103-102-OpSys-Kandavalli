@@ -1,4 +1,4 @@
-                             #  4103-102/Introduction to Operating Sys
+ #  4103-102/Introduction to Operating Sys
 #      Assignments-  Program-2
 #      Ajay Dinakar Kandavalli
 #
