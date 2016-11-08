@@ -80,7 +80,7 @@ class CursesWindow(object):
     
     def randomColor(self):
         """visibile colors"""
-        return random.randint(1,len(self.colors))
+        return random.randint(1,8)
         
     def getColor(self,key,val):
         
